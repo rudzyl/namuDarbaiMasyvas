@@ -7,9 +7,11 @@ public class NamuDarbaiMasyvas {
         int[]masyvas = {15, 42, 15, 98, -2, -47, 10, 3, -14, 36};
         int didejantis = 0;
         int mazejantis = 0;
+        //uzduoties duomenys
         for(int i =0; i < masyvas.length; i++){
         System.out.print(masyvas[i] + " ");
         }
+        //nuo maziausio iki didziausio
         for(int i = 0; i < masyvas.length; i++) {
             for(int j = i+1; j < masyvas.length; j++) {
                 if(masyvas[i] > masyvas[j]) {
@@ -23,6 +25,7 @@ public class NamuDarbaiMasyvas {
         for (int i =0; i < masyvas.length; i++) {
             System.out.print(masyvas[i]+" ");
         }
+        //nuo didziausio iki maziausio
         for(int i = 0; i < masyvas.length; i++) {
             for(int j = i+1; j < masyvas.length; j++) {
                 if(masyvas[i] < masyvas[j]) {
